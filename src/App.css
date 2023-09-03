@@ -1,0 +1,113 @@
+#root {
+  width: 100vw;
+  margin: 0 0;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.app{
+  padding: 2px;
+  display:flex;
+}
+
+
+.ml-auto {
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.registration{
+  width: 50vw;
+  background: rgb(40,40,43);
+background: linear-gradient(142deg, rgba(40,40,43,0.5) 0%, rgba(53,57,53,0.5) 50%, rgba(0,0,0,0.5) 100%);
+  margin-top: 1rem;
+  color:white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.classroom{
+  display:flex;
+  flex-direction: column;
+}
+
+.addnewclass{
+  display: flex;
+  width: 100%;
+  justify-content: right;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns in a row */
+  gap: 16px; /* Adjust the gap between items as needed */
+}
+
+.grid-item {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  /*background-color: #f0f0f0; /* Change the background color as needed */
+  /*border: 1px solid #ddd; /* Add borders or other styling as needed */
+  text-align: center; /* Center the content in each item */
+}
+
+.material-symbols-outlined{
+  vertical-align: bottom;
+}
+.classroomques {
+  margin: 1em;
+  background-color: rgb(97, 182, 148);
+  padding:1em;
+  border-radius:5px;
+}
+
+.classroomadd {
+  margin: 1em;
+  background-color: rgb(55, 40, 63);
+  padding:1em;
+  border-radius:5px;
+  color:white;
+}
+.ques-items{
+
+}
+
+.currclasses{
+  display:flex;
+  flex-direction:column;
+}
